@@ -1,0 +1,25 @@
+/**index.wxss**/
+.content{
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.floatbutton{
+position:fixed;
+bottom: 60rpx;
+right: 40rpx;
+}
+.tp{
+  color: #2b85e4;
+  margin-bottom: 10px;
+}
+image{
+  width: 33.33%;
+  height: 200rpx;
+  float: left;
+}
+.content.image{
+width: 100%;
+height: 200rpx;
+}

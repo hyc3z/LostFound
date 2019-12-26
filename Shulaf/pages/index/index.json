@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "i-button": "../../iView/button/index",
+    "i-card": "../../iView/card/index",
+    "i-icon": "../../iView/icon/index"
+
+  },
+  "enablePullDownRefresh":true
+}

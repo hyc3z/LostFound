@@ -1,0 +1,14 @@
+.container{
+  width: 100%;
+  position: fixed;
+  background-image: url("http://7af44f.com1.z0.glb.clouddn.com/bg1.jpg");
+  padding-top: 25%;
+}
+.content{
+  width: 90%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  padding-top: 50rpx;
+  padding-bottom: 50rpx;
+}

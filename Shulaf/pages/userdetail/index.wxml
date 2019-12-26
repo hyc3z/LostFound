@@ -1,0 +1,10 @@
+<view class="container">
+  <view class="content">  
+    <i-cell-group>
+      <i-cell title="昵称" value="{{userInfo.nickName}}" label="微信昵称"></i-cell>
+      <i-cell title="姓名" value="{{userInfo.name}}" label="真实姓名"></i-cell>
+      <i-cell title="学号" value="{{userInfo.studentId}}" label="学生卡卡号"></i-cell>
+      <i-cell title="专业" value="{{userInfo.major}}" label="所处专业"></i-cell>
+    </i-cell-group>
+  </view>
+</view>

@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/wxlogin/index",
+    "pages/add/index",
+    "pages/help/index",
+    "pages/about/index",
+    "pages/userdetail/index",
+    
+    "pages/login/index",
+    "pages/mypost/index",
+    "pages/mine/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#19be6b",
+    "navigationBarTitleText": "上大寻物",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#19be6b"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "失物招领",
+        "iconPath": "./images/home.png",
+        "selectedIconPath": "./images/home_fill.png"
+      },
+      {
+        "pagePath": "pages/mypost/index",
+        "text": "我的发布",
+        "iconPath": "./images/post.png",
+        "selectedIconPath": "./images/post_fill.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "个人设置",
+        "iconPath": "./images/mine.png",
+        "selectedIconPath": "./images/mine_fill.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

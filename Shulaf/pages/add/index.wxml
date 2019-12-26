@@ -1,0 +1,40 @@
+<!--pages/add/index.wxml-->
+<view class="content">
+  <view class="radios">
+    <i-radio-group current="{{current}}" bind:change="handleFruitChange">
+        <i-radio position="left" value="寻物启事" class="radio1"></i-radio>
+        <i-radio position="left" value="失物招领" class="radio2"></i-radio>
+    </i-radio-group>
+  </view>
+  <view class="cin">
+    <i-icon class="icon" type="time" size="25" color="#80848f" />
+    <view class='picker0'>
+      <picker mode="date" value="{{date}}" start="1978-01-01" end="2025-12-31" bind:change="bindDateChange" >  
+      <view class="picker">  
+        <i-input value="{{ time }}" title="{{current=='失物招领'?'丢失时间':'发现时间'}}" placeholder="{{current=='失物招领'?'填写丢物时间':'填写发现时间'}}" i-class="input" />
+      </view>  
+    </picker>
+    </view>
+  </view>
+  <view class="cin">
+    <i-icon class="icon" type="coordinates" size="25" color="#80848f" />
+    <i-input title="{{current=='失物招领'?'丢失地点':'发现地点'}}" placeholder="{{current=='失物招领'?'填写丢物地点':'填写发现地点'}}" i-class="input" bind:change='placeInput'/>
+  </view>
+  <view class="cin">
+    <i-icon class="icon" type="service" size="25" color="#80848f" />
+    <i-input title="{{current=='失物招领'?'丢失物品':'招领物品'}}" placeholder="{{current=='失物招领'?'填写丢失的物品':'填写招领的物品'}}" i-class="input" bind:change='typesInput' />
+  </view>
+  <view class="cin">
+    <i-input bind:change='contentInput' type="textarea" placeholder="填写详细说明" i-class="text" />
+  </view>  
+  <view class="cin">
+    <view class="update">
+      <image  src="{{src1?src1:'../../images/update.png'}}" class="img1" bindtap='loadImage' id="src1"></image>
+      <image  src="{{src2?src2:'../../images/update.png'}}" class="img2" bindtap='loadImage' id="src2"></image>
+      <image  src="{{src3?src3:'../../images/update.png'}}" class="img3" bindtap='loadImage' id="src3"></image>
+    </view>
+  </view>
+  <view>
+    <i-button bind:click="submit" type="success" size='small'>发布</i-button>
+  </view>
+</view>

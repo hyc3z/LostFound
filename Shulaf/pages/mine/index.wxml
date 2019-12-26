@@ -1,0 +1,25 @@
+<view class="container">
+  <view class='panel'>
+    <i-panel>
+    <view style="padding: 15px;">
+      <i-cell-group>
+        <i-cell is-link="true" url="../userdetail/index" link-type="navigateTo" ><i-icon type="mine" size="46" />
+          <text class="nickname">{{nickName}}</text>
+          <text class="text">详细信息</text>
+        </i-cell>
+      </i-cell-group>
+      <i-cell-group>
+        <i-cell is-link="true" url="../help/index" link-type="navigateTo" >
+          <i-icon type="feedback" size="46"/><text class="text">查看帮助</text>
+        </i-cell>
+        <i-cell is-link="true" url="../about/index" link-type="navigateTo" >
+          <i-icon type="eit" size="46"/><text class="text">关于我们</text>
+        </i-cell>
+      </i-cell-group>
+    </view>
+
+
+    </i-panel>
+  </view>
+  <button type='warn' bindtap='bindOut'>注销用户</button>
+</view>

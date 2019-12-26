@@ -1,0 +1,6 @@
+/**app.wxss**/
+.container {
+  min-height: 100%;
+  position:relative;
+  height: 500px;
+} 

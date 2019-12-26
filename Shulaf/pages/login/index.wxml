@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="form">
+    <view class='inputs'>
+    <i-input type="number" title="账号"  placeholder='一卡通账号' i-class="input" bind:change='userNameinput'/>
+    </view>
+    <view class="inputs">
+    <i-input title="密码"  placeholder='一卡通密码' i-class="input" type='password' bind:change="passwordInput" />
+    </view>
+
+    <i-button bind:click="handleClick" type="success" size="default"  class="button">登录绑定</i-button>
+  </view>
+    <view class="footer">
+      <text>Xue Aoru</text>
+    </view>
+</view>

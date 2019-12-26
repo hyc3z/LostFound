@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="content">
+    <view class="title"><text>{{title}}</text></view>
+    <view class="avatar">
+      <image src='../../images/avatar1.jpg' class="avatar avr"></image>
+    </view>
+    <view class="words"><text>{{words}}</text></view>
+  </view>
+</view>

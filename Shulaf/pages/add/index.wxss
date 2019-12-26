@@ -1,0 +1,63 @@
+/* pages/add/index.wxss */
+.content{
+  width: 100%;
+  padding-top: 35rpx;
+}
+.radio1{
+  width: 300rpx;
+  float: left;
+  left: 0;
+}
+.radio2{
+  width: 300rpx;
+  float: right;
+  right: 0;
+}
+.radios{
+  width: 80%;
+  height: 48rpx;
+  margin: auto;
+  padding-bottom: 30rpx;
+}
+
+.cin{
+  margin: auto;
+  margin-top: 90rpx;
+  width:72%;
+  display: flex;
+  flex-flow: row;
+}
+.icon{
+  width: 30px;
+  flex:1;
+}
+.input{
+  height: 16px;
+  flex:2;
+}
+.picker0{
+  color: #495060;
+  font-size: 14px;
+  left: 100px;
+  flex:8;
+}
+.update{
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+}
+.img1{
+  width: 33.33%;
+  height: 180rpx;
+}
+.img2{
+  width: 33.33%;
+  height: 180rpx;
+}
+.img3{
+  width: 33.33%;
+  height: 180rpx;
+}
+.text{
+  width: 65%;
+}

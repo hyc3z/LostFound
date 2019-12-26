@@ -1,0 +1,23 @@
+.container{
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  overflow: hidden;
+}
+.panel{
+  width: 100%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.text{
+  font-size: 14px;
+  color: gray;
+  margin-left: 15px;
+}
+.cellgroup{
+  margin-top: 130px;
+}
+.nickname{
+  margin-left: 15rpx;
+}
